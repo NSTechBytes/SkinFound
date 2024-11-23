@@ -48,6 +48,13 @@ Plugin=SkinFound.dll
 SkinName=Clock | Illustro | CustomSkin
 Output=NameOnly
 
+[mSkinFoundSumSkin]
+Measure=Plugin
+Plugin=SkinFound.dll
+SkinName=#SkinList#
+Output=SumSkin
+OnUpdateAction=[!Log "[mSkinFoundSumSki]"]
+
 [TextWhole]
 Meter=String
 MeasureName=mSkinFoundWhole
@@ -65,6 +72,17 @@ Y=70
 FontColor=FFFFFF
 FontSize=12
 Text="Available Skins: #CRLF#[mSkinFoundNameOnly]"
+;Contain this only in Version 1.1 SkinFound.dll
+[TextSumSkin]
+Meter=String
+MeasureName=mSkinFoundSumSkin
+X=10
+Y=150
+FontColor=10,10,10
+FontSize=12
+Text="Available Skins: #CRLF#[mSkinFoundSumSkin]"
+DynamicVariables=1
+Antialias=1
 ```
 
 ### Configuration Options
