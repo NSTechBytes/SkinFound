@@ -110,7 +110,11 @@ Assuming your Rainmeter Skins folder contains only `Clock` and `Illustro`, and `
   Clock
   Illustro
   ```
-
+Now the feature is now only available in version 1.1 herer is output
+- **Output = SumSkin**:
+  ```
+  2
+  ```
 ## Building the Plugin
 
 1. Open the project in Visual Studio.
